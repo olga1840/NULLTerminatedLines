@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 #include<Windows.h>
 using namespace std;
 
@@ -14,7 +14,7 @@ void main()
 
 	const int n = 20;
 	char str[n] = {};
-	cout << "Ââåäèòå ñòðîêó: "; 
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÑ‚Ñ€Ð¾ÐºÑƒ: "; 
 	SetConsoleCP(1251);
 	//cin >> str;
 	cin.getline(str, n);
